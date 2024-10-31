@@ -55,4 +55,7 @@ dependencies {
     androidTestImplementation(libs.jupiter.junit.jupiter)
     androidTestImplementation(libs.androidx.runner)
     androidTestImplementation (libs.androidx.espresso.core.v361)
+    debugImplementation("androidx.fragment:fragment-testing:1.8.2") {
+        isTransitive = false
+    }
 }
